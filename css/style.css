@@ -15,19 +15,20 @@ a {
 }
 
 .implinks {
-  background-color: greenyellow;
   font-weight: bold;
   box-shadow: 3px 3px 2px grey;
 }
 
 #floatingimage {
+  padding: 3px;
   width: 480px;
   height: 400px;
-  opacity: 50%;
+  opacity: 15%;
   border: 0.1rem solid red;
+  transition: 1.5s ease-out;
 }
 
 #floatingimage:hover {
   opacity: 100%;
-  transition: opacity 2s;
+  transition: opacity 1.5s;
 }
