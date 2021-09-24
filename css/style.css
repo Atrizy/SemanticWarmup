@@ -1,0 +1,33 @@
+body {
+  background-color: grey;
+}
+
+h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: honeydew;
+}
+
+a {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.implinks {
+  background-color: greenyellow;
+  font-weight: bold;
+  box-shadow: 3px 3px 2px grey;
+}
+
+#floatingimage {
+  width: 480px;
+  height: 400px;
+  opacity: 50%;
+  border: 0.1rem solid red;
+}
+
+#floatingimage:hover {
+  opacity: 100%;
+  transition: opacity 2s;
+}
