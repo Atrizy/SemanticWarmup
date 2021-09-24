@@ -1,11 +1,22 @@
 body {
-  background-color: grey;
+  background-image: url("https://www.formula1.com/content/dam/fom-website/manual/Misc/2020delay/ZandvoortPics/Zandvoort2.jpg");
 }
 
 h1 {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  color: honeydew;
+  color: black;
+}
+
+h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: black;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: red;
 }
 
 a {
@@ -16,10 +27,9 @@ a {
 
 .implinks {
   font-weight: bold;
-  box-shadow: 3px 3px 2px grey;
 }
 
-#floatingimage {
+.floatingimage {
   padding: 3px;
   width: 480px;
   height: 400px;
@@ -28,7 +38,12 @@ a {
   transition: 1.5s ease-out;
 }
 
-#floatingimage:hover {
+.floatingimage:hover {
   opacity: 100%;
   transition: opacity 1.5s;
+}
+
+.bold {
+  font-weight: bold;
+  color: black;
 }
